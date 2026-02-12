@@ -66,6 +66,14 @@ export default function Home() {
           ☕ Invítame un cafecito
         </a>
         <p className="text-[#737373] text-xs">
+          <a
+            href="/privacidad"
+            className="hover:text-[#a1a1a1] transition-colors"
+          >
+            Privacidad
+          </a>
+        </p>
+        <p className="text-[#737373] text-xs">
           Creado por{" "}
           <a
             href="https://herasi.dev"
