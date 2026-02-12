@@ -62,12 +62,30 @@ export default function MetodosPage() {
         </div>
       )}
 
-      <button
-        onClick={() => router.push("/metodos/nuevo")}
-        className="w-full py-3.5 rounded-2xl bg-[#ea580c] text-white font-semibold text-sm hover:bg-[#fb923c] transition-colors mt-6 active:scale-[0.98]"
-      >
-        ➕ Agregar Método
-      </button>
+      <div className="mt-6 space-y-3">
+        <button
+          onClick={() => router.push("/metodos/nuevo")}
+          className="w-full py-3.5 rounded-2xl border border-[#ea580c] text-[#ea580c] font-semibold text-sm hover:bg-[#ea580c]/10 transition-colors active:scale-[0.98]"
+        >
+          ➕ Agregar Método
+        </button>
+
+        {methods.length > 0 && (
+          <button
+            onClick={() => router.push("/cobrar")}
+            className="w-full py-3.5 rounded-2xl bg-[#ea580c] text-white font-semibold text-sm hover:bg-[#fb923c] transition-colors active:scale-[0.98]"
+          >
+            💰 Ir a Cobrar
+          </button>
+        )}
+
+        <button
+          onClick={() => router.push("/")}
+          className="w-full py-3 text-[#a1a1a1] text-sm hover:text-[#fafafa] transition-colors"
+        >
+          Ir al Inicio
+        </button>
+      </div>
     </div>
   );
 }

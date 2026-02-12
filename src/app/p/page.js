@@ -63,7 +63,18 @@ function PaymentContent() {
 
       <PaymentView payment={payment} />
 
-      <footer className="text-center mt-8">
+      <div className="mt-10 bg-[#1a1a1a] border border-[#262626] rounded-2xl p-5 text-center">
+        <p className="text-[#fafafa] font-semibold text-sm mb-1">¿Tú también cobras?</p>
+        <p className="text-[#a1a1a1] text-xs mb-4">Crea tu enlace de cobro gratis con PayCopy</p>
+        <a
+          href="/"
+          className="inline-block w-full py-3 rounded-2xl bg-[#ea580c] text-white font-semibold text-sm hover:bg-[#fb923c] transition-colors active:scale-[0.98]"
+        >
+          💰 Crear mi cobro
+        </a>
+      </div>
+
+      <footer className="text-center mt-6 pb-4">
         <p className="text-[#737373] text-xs">
           Creado por{" "}
           <a
