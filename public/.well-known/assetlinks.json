@@ -4,7 +4,7 @@
     "target": {
       "namespace": "android_app",
       "package_name": "app.paycopy.twa",
-      "sha256_cert_fingerprints": ["REEMPLAZAR_CON_SHA256_DE_PWABUILDER"]
+      "sha256_cert_fingerprints": ["FE:4B:42:92:5D:A6:C6:9B:6A:39:90:A0:C1:03:5D:21:D6:F2:65:B7:72:C6:1D:CF:C5:48:11:48:B8:D8:A1:59"]
     }
   }
 ]
