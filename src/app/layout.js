@@ -33,7 +33,11 @@ export const metadata = {
     title: "PayCopy - Cobra y paga fácil",
     description: "Comparte tus datos de pago de forma organizada.",
   },
-  metadataBase: new URL("https://paycopy.app"),
+  metadataBase: new URL(
+    process.env.VERCEL_PROJECT_PRODUCTION_URL
+      ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+      : "http://localhost:3000"
+  ),
 };
 
 export const viewport = {

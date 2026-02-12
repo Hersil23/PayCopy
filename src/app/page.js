@@ -58,7 +58,13 @@ export default function Home() {
         )}
       </div>
 
-      <footer className="mt-auto pt-8">
+      <footer className="mt-auto pt-8 text-center space-y-2">
+        <a
+          href="/donar"
+          className="text-[#a1a1a1] text-xs hover:text-[#ea580c] transition-colors"
+        >
+          ☕ Invítame un cafecito
+        </a>
         <p className="text-[#737373] text-xs">
           Creado por{" "}
           <a
