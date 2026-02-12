@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ToastProvider } from "@/components/Toast";
+import ServiceWorker from "@/components/ServiceWorker";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -46,6 +47,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body className={`${inter.variable} font-sans antialiased`}>
+        <ServiceWorker />
         <ToastProvider>
           <div className="min-h-dvh flex flex-col">
             <main className="flex-1 w-full max-w-[480px] mx-auto px-4">
