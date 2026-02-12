@@ -65,12 +65,14 @@ function PaymentContent() {
 
       <footer className="text-center mt-8">
         <p className="text-[#737373] text-xs">
-          Powered by{" "}
+          Creado por{" "}
           <a
-            href="/"
+            href="https://herasi.dev"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-[#a1a1a1] hover:text-[#ea580c] transition-colors"
           >
-            PayCopy.app
+            @herasi.dev
           </a>
         </p>
       </footer>

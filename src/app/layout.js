@@ -25,8 +25,12 @@ export const metadata = {
     description: "Comparte tus datos de pago de forma organizada.",
     url: "https://paycopy.app",
     siteName: "PayCopy",
-    images: [{ url: "/icons/og-image.png", width: 1200, height: 630 }],
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "PayCopy - Cobra y paga fácil",
+    description: "Comparte tus datos de pago de forma organizada.",
   },
   metadataBase: new URL("https://paycopy.app"),
 };

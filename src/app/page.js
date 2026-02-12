@@ -60,14 +60,14 @@ export default function Home() {
 
       <footer className="mt-auto pt-8">
         <p className="text-[#737373] text-xs">
-          Hecho por{" "}
+          Creado por{" "}
           <a
             href="https://herasi.dev"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#a1a1a1] hover:text-[#ea580c] transition-colors"
           >
-            herasi.dev
+            @herasi.dev
           </a>
         </p>
       </footer>
