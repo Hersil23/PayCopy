@@ -29,8 +29,8 @@ export default function Image() {
           }}
         >
           <svg
-            width="110"
-            height="110"
+            width="121"
+            height="121"
             viewBox="0 0 64 64"
             fill="none"
           >
@@ -67,7 +67,7 @@ export default function Image() {
           </svg>
           <span
             style={{
-              fontSize: "99px",
+              fontSize: "109px",
               fontWeight: "bold",
               color: "#fafafa",
             }}
@@ -78,7 +78,7 @@ export default function Image() {
         </div>
         <p
           style={{
-            fontSize: "44px",
+            fontSize: "48px",
             color: "#a1a1a1",
             margin: "0",
           }}
@@ -87,7 +87,7 @@ export default function Image() {
         </p>
         <p
           style={{
-            fontSize: "28px",
+            fontSize: "31px",
             color: "#737373",
             marginTop: "16px",
           }}
